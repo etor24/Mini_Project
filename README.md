@@ -16,7 +16,6 @@
 		brand VARCHAR (50),
 		available VARCHAR (10)
 	);
-	
 	CREATE TABLE user_info (
 		userID INT IDENTITY(1,1) PRIMARY KEY,
 		FirstName VARCHAR (50),
@@ -27,7 +26,6 @@
 		clothes_id INT,
 		FOREIGN KEY (clothes_id) REFERENCES clothes(clothes_id)
 	);
-	
 	CREATE TABLE staff_info (
 		username VARCHAR (50),
 		password VARCHAR (50)
