@@ -43,23 +43,28 @@
 # Documentation
 
 **Overview**
+
 The Clothing Catalog is a comprehensive platform designed to cater to both end-users and staff members. End-users can browse and purchase clothes through a user-friendly interface, while staff members have access to functionalities for managing the clothing catalog.
 
 **User Features**
+
     Browse and Purchase: Users can explore a wide range of clothing items using four different filters: type of clothing item, color, size, and brand.
     They can also utilize the search function to find specific items within each category.
     Availability: Users can view the availability status of each clothing item.
     Ordering: Users can place orders by entering their personal information.
 
 **Staff Features**
+
     Authentication: Staff members are required to log in to their accounts to access the catalog management functionalities.
     Catalog Management: Once authenticated, staff members can add, edit, and delete clothing items from the catalog.
 
 **Authentication and Authorization**
+
     User Roles: Only staff members have access to the authentication system and are assigned staff accounts.
     Access Control: Staff accounts are granted permissions to edit the catalog upon successful authentication.
 
 **Data Management**
+
     Database Structure:
     - Clothing Information Table
     - User Purchase Information Table
@@ -69,5 +74,6 @@ The Clothing Catalog is a comprehensive platform designed to cater to both end-u
     Staff Accounts: Stores credentials for staff members to access the catalog management system.
 
 **User Interface**
+
     Layout: The user interface is designed to be intuitive and easy to navigate.
     Filtering and Search: Users can utilize filters and the search function to find desired clothing items efficiently.
